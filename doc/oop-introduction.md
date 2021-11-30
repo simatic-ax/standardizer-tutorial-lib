@@ -182,7 +182,7 @@ In the last step, you tried to declare a Variable of the type `IBinOutput`. This
             ...
         ```
 
-### Implement the methods `Open` and `Close`
+### Implement the methods `Open`, `Close`, `IsOpen`
 
 Now we're implementing the interface methods.
 
@@ -207,6 +207,27 @@ Now we're implementing the interface methods.
         _valveState := true;
     END_METHOD
     ```
+
+1. Insert the method IsOpen as shown below
+
+    ```iec-st
+    ...
+    METHOD PUBLIC SetRefToDQ
+        VAR_INPUT
+            dq : IBinOutput;
+        END_VAR
+        qValve := dq;
+    END_METHOD
+
+    METHOD PUBLIC IsOpen : BOOL
+            IsOpen := _valveState;
+    END_METHOD
+
+    METHOD PUBLIC Close
+    ...
+    ```
+
+
 
 ### Usage of enumeration and `Go to definition`
 
