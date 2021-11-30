@@ -1,0 +1,25 @@
+name: standardizer-tutorial-lib
+version: 0.0.1
+type: lib
+
+targets:
+  - "axunit-llvm"
+
+devDependencies:
+  "@ax/sdk": 0.2.449
+
+variables:
+  APAX_BUILD_ARGS:
+    - --debug
+scripts:
+  prebuild:
+    - rm $TRACE_FILE -f
+dependencies:
+  "@ax-showcase/io": 0.10.0
+  "@ax-showcase/collections": 0.3.1
+  "@ax/system-timer": 0.4.2
+files:
+  - "./src"
+  - "./doc"
+registries:
+  '@ax-showcase': 'https://npm.pkg.github.com/'

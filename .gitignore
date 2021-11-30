@@ -1,0 +1,7 @@
+.apax
+.env
+bin
+obj
+testResult
+result.tracerec.json
+.gitlab-ci.yml
