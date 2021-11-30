@@ -1,0 +1,5 @@
+NAMESPACE Simatic.Ax.Tutorial
+    INTERFACE IFillingLevel 
+        METHOD GetFillingLevel : LREAL END_METHOD
+    END_INTERFACE
+END_NAMESPACE
