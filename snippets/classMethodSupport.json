@@ -1,0 +1,22 @@
+{
+  "ClassMethodSupport": {
+  "scope": "javascript,typescript,st",
+  "prefix": ["method, no return"],
+  "body": [
+      "${1|METHOD PUBLIC,METHOD PRIVATE,METHOD PROTECTED|} ${2:MyMethod}",
+      "\t;",
+      "END_METHOD$0"
+  ],
+  "description": "Creates a template of method without return value"
+},
+  "ClassMethodSupportReturn": {
+  "scope": "javascript,typescript,st",
+  "prefix": ["method, with return"],
+  "body": [
+      "${1|METHOD PUBLIC,METHOD PRIVATE,METHOD PROTECTED|} ${2:MyMethod} : ${3|BOOL,INT,LREAL,WORD,REAL,DINT,UINT,SINT|}",
+      "\t $LINE_COMMENT MyMethod := ;",
+      "END_METHOD$0"
+  ],
+  "description": "Creates a template of method with return value"
+}
+}

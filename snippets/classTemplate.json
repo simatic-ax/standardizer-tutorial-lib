@@ -1,0 +1,21 @@
+{
+    "ClassTemplate": {
+    "scope": "javascript,typescript,st",
+    "prefix": ["class template, End_Class"],
+    "body": [
+        "CLASS ${TM_FILENAME/(.*)\\..+$/$1/}",
+        "\tVAR PUBLIC",
+        "\t\t$2",
+        "\tEND_VAR",
+        "\tVAR PROTECTED",
+        "\t\t$3",
+        "\tEND_VAR",
+        "\t",
+        "\tMETHOD PUBLIC $4MyMethod",
+        "\t\t;",
+        "\tEND_METHOD",
+        "END_CLASS"         
+    ],
+    "description": "Creates a template of a class including namespace"
+    }
+}
