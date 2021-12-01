@@ -1,4 +1,4 @@
-# Write tests
+# Write own unit tests with AxUnit
 
 ## Goal for this training chapter
 

@@ -6,7 +6,6 @@ After this training session:
 
 - you know the test explorer and the `Run tests` button
 - you can execute tests within the IDE
-- you know the feature `single test execution`  //TODO
 - you've knowledge about the command line based testing
   
 ### The test explorer and executing tests
@@ -41,5 +40,4 @@ Goal reached? Check yourself...
 
 - you know the test explorer and the `Run tests` button ✔
 - you can execute tests within the IDE ✔
-- you know the feature `single test execution`  //TODO
 - you've knowledge about the command line based testing ✔
