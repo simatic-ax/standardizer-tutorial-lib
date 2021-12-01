@@ -1,9 +1,18 @@
 # Packing and publishing libraries
 
+# Debugging of tests
+
+## Goal for this training chapter
+
 After this training session:
 
-- the user is able to pack a library
-- the user knows how a library can be shipped
-- ...
+//TODO
+
+### enable 
+
+
+## Summary
+
+Goal reached? Check yourself...
 
 [Back to overview](./../README.md)

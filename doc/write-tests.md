@@ -9,7 +9,7 @@ After this training session:
 - you know what are assertions and how they're used
 - use full qualified type identifier for items in namespaces
 - you know, where you find information for writing test functions
-- you know where you find guidelines and tips for writing tests 
+- you know where you find guidelines and tips for writing tests
 
 ### Create a test for the new implemented class valve
 
