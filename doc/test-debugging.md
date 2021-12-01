@@ -1,4 +1,4 @@
-# Debugging of tests
+#Debugging of tests
 
 After this training session:
 

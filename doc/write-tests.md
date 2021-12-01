@@ -1,45 +1,15 @@
-# Using the testing framework
+# Write tests
 
 ## Goal for this training chapter
 
 After this training session:
 
-- you know the test explorer and the `Run tests` button
-- you can execute tests within the IDE
-- you've knowledge about the command line based testing
-- you know a test class looks like
-- you know how you create a test method
+- you know how a test class looks like
+- you know how you create a test method within a test class
 - you know what are assertions and how they're used
-- use full qualified type identifier
-- you know how parametrized tests are working and modify them
-  
-### The test explorer and executing tests
-
-In the tutorial, there are a couple predefined tests shipped they can be executed.
-
-1. Open the test explorer
-
-    ![drawing](./images/testexplorer.png)
-
-1. Run the tests by clicking on `Run Tests`
-
-    ![drawing](./images/runtests.png)
-
-1. See the test results
-
-    ![drawing](./images/testresults.png)
-
-    **Alternative workflow**
-
-    You can also execute the tests by command line command. You've just to enter `apax test` in a terminal.
-
-    ```iec-st
-    apax test
-    ```
-
-    > Note: in case of executing the tests by command line, the test explorer results will not be updated. The test results will be shown in the command line output.
-
-### 
+- use full qualified type identifier for items in namespaces
+- you know, where you find information for writing test functions
+- you know where you find guidelines and tips for writing tests 
 
 ### Create a test for the new implemented class valve
 
@@ -49,7 +19,15 @@ In the tutorial, there are a couple predefined tests shipped they can be execute
 
     Here you can see a template for a test class. It's marked with the pragma `{TestFixture}`
 
-1. Insert a test method. By entering `te`  `test-method` will be proposed. And press enter
+    > Tip: You can filter the files in the Explorer: 
+    >
+    > ![drawing](./images/filer.png) 
+    > 
+    > More information you'll find [here](https://code.visualstudio.com/docs/getstarted/userinterface#_explorer)
+
+    > AxUnit support not just test classes. It supports also [test functions](https://console.prod.ax.siemens.cloud/docs/axunit#how-to-write-unit-tests)
+
+1. Insert a test method. By entering `te` the snippet `test-method` will be proposed. And press enter
 
     ![drawing](./images/testmethod.png)
 
@@ -59,7 +37,7 @@ In the tutorial, there are a couple predefined tests shipped they can be execute
 
 1. Change the name of the method to `Test_Open_valve_and_Expect_IsOpen_True`
 
-    >Test methods should alway have a speech name //TODO speech??
+    > Recommendations for writing tests, you'll find [here](https://console.prod.ax.siemens.cloud/docs/axunit#guidelines-and-tips-for-writing-tests)
 
 1. In the next step we select our class we want to test. Therefore we declare the variable v in the VAR section
 
@@ -69,7 +47,7 @@ In the tutorial, there are a couple predefined tests shipped they can be execute
     END_VAR
     ```
 
-    In this case we use the full qualified path for the Valve class. This is another way to define variables from namespaces beside the `USING` keyword.
+    In this case we use the full qualified name for the Valve class. This is an alternative to `USING Simatic.Ax.Tutorial;`.
 
 1. To implement the test itself, we modify the method `MyTestMethod` in this way:
 
@@ -94,23 +72,19 @@ In the tutorial, there are a couple predefined tests shipped they can be execute
   
         More information regarding testing, you'll find [here]([./images/test_fixture.png](https://console.prod.ax.siemens.cloud/docs/axunit))
 
+
+
+
 ## Summary
 
 Goal reached? Check yourself...
 
-- you know the test explorer and the `Run tests` button ✔
-- you can execute tests within the IDE ✔
-- you've knowledge about the command line based testing ✔
-- you know a test class looks like ✔
-- you know how you create a test method ✔
+- you know how a test class looks like ✔
+- you know how you create a test method within a test class ✔
 - you know what are assertions and how they're used ✔
-- use full qualified type identifier ✔
-- you know how parametrized tests are working and modify them ✔
+- use full qualified type identifier for items in namespaces ✔
+- you know, where you find information for writing test functions ✔
+- you know where you find guidelines and tips for writing tests ✔
 
-- you know the test explorer and the `Run tests` button ✔
-- you can execute tests within the IDE ✔
-- you've knowledge about the command line based testing ✔
-- you know what a test class is ✔
-- you know what a test method is ✔
-- you know what are assertions and how they're used ✔
-- you know how parametrized tests are working and modify them ✔
+ 
+
