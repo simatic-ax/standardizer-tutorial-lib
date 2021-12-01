@@ -16,7 +16,7 @@ After this tutorial, you:
 
 This tutorial is structures in multiple sequential chapters. Execept [Apax package manager usage](./doc/setup.md) all chapters are optionally. But [Write own unit tests with AxUnit](./doc/write-tests.md) depends on [Introduction in OOP](./doc/oop-introduction.md)
 
-Chapters:
+## Training chapters
 
 - [Apax package manager usage](./doc/setup.md) (mandatory for all other chapters)
 - [Introduction in OOP](./doc/oop-introduction.md)
@@ -36,6 +36,6 @@ Chapters:
   - [how to add a SSH key on GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
   - >Note: you need this public key, to be able to clone the repository in cloud IDE
 
-- You've created a valid token to access the GitHub registry
+- You've created a valid personal access token to access the GitHub registry
   - [create personal access token on GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-  - >Note: You need this token to login into the `simatic-ax` GitHub registry (URL: https://npm.pkg.github.com/) with `apax login`
+  - >Note: You need this token to login into the `simatic-ax` GitHub registry (URL: <https://npm.pkg.github.com/>) with `apax login`
