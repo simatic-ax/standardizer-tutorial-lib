@@ -267,11 +267,6 @@
   resolved "https://apax-prod-734703289705.d.codeartifact.eu-central-1.amazonaws.com:443/npm/ax/@ax/system-timer/-/system-timer-0.4.2.tgz#8851791bfa4d529a8a16f094899a1927ced68302"
   integrity sha512-7oMlBiJH0vQR3nxbvuRJkFFhWzo/eFvl1qB93gKOKMe4g2r0PDlqBAxynS8ASKSvb6W3LbHINH8Cjep93k9KSA==
 
-"@ax/system-timer@^1.0.12":
-  version "1.0.12"
-  resolved "https://apax-prod-734703289705.d.codeartifact.eu-central-1.amazonaws.com:443/npm/ax/@ax/system-timer/-/system-timer-1.0.12.tgz#7ee8e676894d2c0dcdde85b1b0911417d354c72f"
-  integrity sha512-nEZXOAQmPF/fF+OC3tvAXyItWHrD20gaFXvjTV3eAjfyzIMChKnGl+33R+QkYqInqTUcKfyIVVv+BvAurXVgLg==
-
 "@ax/target-axunit@1.5.3918":
   version "1.5.3918"
   resolved "https://apax-prod-734703289705.d.codeartifact.eu-central-1.amazonaws.com:443/npm/ax/@ax/target-axunit/-/target-axunit-1.5.3918.tgz#0a3f23a02c44789546f9b7267aba15f4f11e2275"
