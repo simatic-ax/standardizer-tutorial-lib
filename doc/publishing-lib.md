@@ -5,3 +5,5 @@ After this training session:
 - the user is able to pack a library
 - the user knows how a library can be shipped
 - ...
+
+[Back to overview](./../README.md)

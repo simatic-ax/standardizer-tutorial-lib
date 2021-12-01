@@ -97,9 +97,9 @@ Since Valve is a kind of any valve, the interface IValve shall be implemented.
     This error means, that the expected methods from IValve are not implemented.
     In this case, hover with your mouse cursor over `IValve` and select `Quick fix...` OR press `CRTL+.`
 
-    ![drawing](./images/quickfix.png)
+    ![drawing](./images/Quickfix.png)
 
-1. Click on `Implement missing Methods`
+2. Click on `Implement missing Methods`
 
     ![drawing](./images/implement.png)
 
@@ -129,7 +129,7 @@ Since Valve is a kind of any valve, the interface IValve shall be implemented.
 
     > eventually, you've to format the source code when the tabs are not fitting
 
-### Decalre private variables
+### Declare private variables
 
 1. Go to the section VAR within the class `Valve`
 
@@ -227,8 +227,6 @@ Now we're implementing the interface methods.
     ...
     ```
 
-
-
 ### Usage of enumeration and `Go to definition`
 
 The interface `IValve` expects a further method `GetState : ValveState`. The return value of this method is a enumeration of the type `ValveState`.
@@ -284,3 +282,6 @@ Goal reached? Check yourself...
 - are able to declare `PRIVATE` and `PUBLIC` variables ✔
 - you know how you find a 'Definition' ✔
 - you've seen an example for a enumeration and you know how to use enumerations ✔
+
+
+[Back to overview](./../README.md)

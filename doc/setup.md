@@ -176,4 +176,5 @@ Goal reached? Check yourself...
 - you have heard, that there are different project types `lib`/`app` ✔
 - and you've heard the difference between `devDependencies` and `dependencies` ✔
 - you know how to add further dependencies ✔
-  
+
+[Back to overview](./../README.md)

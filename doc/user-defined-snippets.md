@@ -58,3 +58,5 @@ Goal reached? Check yourself...
 
 - You've learned how a snippet can be created ✔
 - You know, where you find more information to create own snippets ✔
+
+[Back to overview](./../README.md)
