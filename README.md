@@ -31,4 +31,11 @@ Chapters:
 
 - Access to axite.me WebIDE
 - able to login into the AX registry
-- a valid GitHub token to access the GitHub registry //TODO link how to create an token
+- your public key of AX cloud IDE is added in your GitHub profile:
+  - [how to get your public key from AX](https://console.prod.ax.siemens.cloud/docs/axcode/source-code-management#cloning-in-the-cloud)
+  - [how to add a SSH key on GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+  - >Note: you need this public key, to be able to clone the repository in cloud IDE
+
+- You've created a valid token to access the GitHub registry
+  - [create personal access token on GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+  - >Note: You need this token to login into the `simatic-ax` GitHub registry (URL: https://npm.pkg.github.com/) with `apax login`
