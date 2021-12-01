@@ -59,7 +59,7 @@ Before we continue with that tutorial, you've to login into the AX registry to b
 
 ### Login to other registry
 
-For this tutorial are further libraries required, which are hosted at a GitHub registry @ax-showcase. To consume them, it is necessary to login into the GitHub registry.
+For this tutorial are further libraries required, which are hosted at a GitHub registry @simatic-ax. To consume them, it is necessary to login into the GitHub registry.
 
 1. select the file `apax.yml`, click the right mouse button and select `Login to registry`
 
