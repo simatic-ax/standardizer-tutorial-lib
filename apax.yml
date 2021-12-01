@@ -15,11 +15,10 @@ scripts:
   prebuild:
     - rm $TRACE_FILE -f
 dependencies:
-  "@ax-showcase/io": 0.10.0
-  "@ax-showcase/collections": 0.3.1
-  "@ax/system-timer": 0.4.2
+  "@simatic-ax/io": 0.0.2
+  "@simatic-ax/collections": 0.0.1
 files:
   - "./src"
   - "./doc"
 registries:
-  '@ax-showcase': 'https://npm.pkg.github.com/'
+  '@simatic-ax': 'https://npm.pkg.github.com/'

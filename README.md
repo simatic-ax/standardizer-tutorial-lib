@@ -10,7 +10,8 @@ Chapters:
 - [Apax package manager usage](./doc/setup.md)
 - [Introduction in OOP](./doc/oop-introduction.md)
 - [User defined snippets](./doc/user-defined-snippets.md)
-- [Using the testing framework](./doc/testing-framework.md)
+- [Usage of the testing framework](./doc/testing-framework.md)
+- [Write own tests](./doc/write-tests.md)
 - [Debugging of tests](./doc/test-debugging.md)
 - [Packing and publishing libraries](./doc/publishing-lib.md)
 

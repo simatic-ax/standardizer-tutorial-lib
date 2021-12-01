@@ -2,24 +2,6 @@
 # yarn lockfile v1
 
 
-"@ax-showcase/collections@0.3.1":
-  version "0.3.1"
-  resolved "https://npm.pkg.github.com/download/@ax-showcase/collections/0.3.1/6656d48a140bd1a7c13e794c0b818bba8c9cc5880b77aab3e4baadbfb3e56840#bc6e9c0d87557b5a0ed8a15297094de275925195"
-  integrity sha512-uZwRP+YsibXEJodr7rCtwzrbgXO4yu2q1nL1eSgoOn8TIXtixzXFrxgrCju9qROb9s6TEcry54Ola9W5XR2byg==
-
-"@ax-showcase/io@0.10.0":
-  version "0.10.0"
-  resolved "https://npm.pkg.github.com/download/@ax-showcase/io/0.10.0/6152101e04136502b211d8da32b3d6c6abee4c0e20b979087fe593b5a4dddf93#b995a1b1584f5fb16cf1e248bed81b250592c52a"
-  integrity sha512-v2G9YhyYty0S2/AUSPmRLPqapiZ9SQBbmJoPlQSUWL2vuwJ9rOqKmKO3dMw9hUOoleIBUF4mK2nQTzLHAT20Dg==
-  dependencies:
-    "@ax-showcase/mocks" "0.2.0"
-    "@ax/system-timer" "0.4.2"
-
-"@ax-showcase/mocks@0.2.0":
-  version "0.2.0"
-  resolved "https://npm.pkg.github.com/download/@ax-showcase/mocks/0.2.0/ed3c549f726252defe80cd63956cddea4f13c44f7693b45115df068cec6f9a07#478b4cd4d1a92bf40a5e8b015d9bfdaa784dffd9"
-  integrity sha512-na7ANDmgb5WxwpdGFlMgmniWglx00ouqdZZ7l9O9LGU290NBQjXD4GvTaSmXLpetJc7b40fG64K6pk1OdxcGuQ==
-
 "@ax/apax-build@0.4.1":
   version "0.4.1"
   resolved "https://apax-prod-734703289705.d.codeartifact.eu-central-1.amazonaws.com:443/npm/ax/@ax/apax-build/-/apax-build-0.4.1.tgz#634fd5faf0f1f63dfd731fbf66f031043873dee6"
@@ -285,6 +267,11 @@
   resolved "https://apax-prod-734703289705.d.codeartifact.eu-central-1.amazonaws.com:443/npm/ax/@ax/system-timer/-/system-timer-0.4.2.tgz#8851791bfa4d529a8a16f094899a1927ced68302"
   integrity sha512-7oMlBiJH0vQR3nxbvuRJkFFhWzo/eFvl1qB93gKOKMe4g2r0PDlqBAxynS8ASKSvb6W3LbHINH8Cjep93k9KSA==
 
+"@ax/system-timer@^1.0.12":
+  version "1.0.12"
+  resolved "https://apax-prod-734703289705.d.codeartifact.eu-central-1.amazonaws.com:443/npm/ax/@ax/system-timer/-/system-timer-1.0.12.tgz#7ee8e676894d2c0dcdde85b1b0911417d354c72f"
+  integrity sha512-nEZXOAQmPF/fF+OC3tvAXyItWHrD20gaFXvjTV3eAjfyzIMChKnGl+33R+QkYqInqTUcKfyIVVv+BvAurXVgLg==
+
 "@ax/target-axunit@1.5.3918":
   version "1.5.3918"
   resolved "https://apax-prod-734703289705.d.codeartifact.eu-central-1.amazonaws.com:443/npm/ax/@ax/target-axunit/-/target-axunit-1.5.3918.tgz#0a3f23a02c44789546f9b7267aba15f4f11e2275"
@@ -362,3 +349,21 @@
   version "1.25.42"
   resolved "https://apax-prod-734703289705.d.codeartifact.eu-central-1.amazonaws.com:443/npm/ax/@ax/third-party-licenses-st-compiler/-/third-party-licenses-st-compiler-1.25.42.tgz#a78ce717cdd82ee626d296a3b357699422684798"
   integrity sha512-ek9/tVzGtSMbnUCXw3s5o07eA61bd0H8k366mPV+lxgRitzXy59LHf2FCSNRT2P++LabLYkfuVu2z43malyf3g==
+
+"@simatic-ax/collections@0.0.1":
+  version "0.0.1"
+  resolved "https://npm.pkg.github.com/download/@simatic-ax/collections/0.0.1/4e6f9a375dc7af526981f4740b21535556b5e968fd92a3d46f2704751b696710#7efd9f463736e7204463f0ac8f3ce2d6d511a250"
+  integrity sha512-fdO9QHW7Nnlrk8X5RoQNDtfFPog+Qh740tcH2hyzVZgOZrxfRh9dnElaOk6DLxI5fNzJlDkjA8PrSkv3L76pYw==
+
+"@simatic-ax/io@0.0.2":
+  version "0.0.2"
+  resolved "https://npm.pkg.github.com/download/@simatic-ax/io/0.0.2/226ab6410807759b8859d330d9e568356af785500ecbe38d5fc5137da7b01662#90279d2651a7d119428a5c750bb308058a5510cb"
+  integrity sha512-LNQGOAUdiHop9NFmWtOx3Gia2AAHksNoOtZyiTLJV0nSrgOXFUO0EJufx70skovstIHUiZCjfu4I/W0AvBOc9g==
+  dependencies:
+    "@ax/system-timer" "0.4.2"
+    "@simatic-ax/mocks" "0.0.1"
+
+"@simatic-ax/mocks@0.0.1":
+  version "0.0.1"
+  resolved "https://npm.pkg.github.com/download/@simatic-ax/mocks/0.0.1/c24d2360e4a4fa86fa2cc5fd3e60e2f7bbaf0ddb6409f5eeb0c56b838a21bba6#aa10cf328415c1d63b80855d8014d64636a5bbee"
+  integrity sha512-iLWX9Y/bte+kh2q++33qNPsQ0c6F13lQgBrmqDHuHyYAwEAUfQWCB87VBwQLPhMvOQhMyf2hSa+qOlTs5yQqYg==

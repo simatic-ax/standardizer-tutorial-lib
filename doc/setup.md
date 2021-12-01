@@ -111,13 +111,13 @@ In the header of this file you find some information about the project.
 
 #### **devDependencies**
 
-This section contains dte dependencies,, which are necessary during the development. Here just the `@as/sdk` in version `0.2.499` is required.
+This section contains dte dependencies,, which are necessary during the development. Here just the `@ax/sdk` in version `0.2.499` is required.
 
 #### **dependencies** and **registries**
 
 In this tutorial we also need some other libraries. Hence this are dependencies which are necessary for building the library.
 
-In this example, there are two further libraries form the `@ax-showcase` registry required.
+In this example, there are two further libraries form the `@simatic-ax` registry required.
 
 For the moment, it's not important to know what the content of this libraries is. This libraries are hosted on GitHub. So we've to tell apax, where the GitHub Registry is located. This will be done in the section `registries`
 The URL of the Github registry is:
