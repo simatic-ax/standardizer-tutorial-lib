@@ -5,8 +5,9 @@
 - you know what parametrized tests are
 - you know how you can add further test cases to parametrized tests
 - you've seen how parametrized tests are look like
+- you can add further test cases to parametrized tests
 - you're able to handle a failed test
-- you've heard something about explicit type conversion
+- you've can use explicit type conversion
 
 ### What are parametrized tests?
 
@@ -121,5 +122,13 @@
 
     The tests should now run without errors
 
+## Summary
 
+Goal reached? Check yourself...
 
+- you know what parametrized tests are ✔
+- you know how you can add further test cases to parametrized tests ✔
+- you've seen how parametrized tests are look like ✔
+- you can add further test cases to parametrized tests ✔
+- you're able to handle a failed test ✔
+- you've can use explicit type conversion ✔
