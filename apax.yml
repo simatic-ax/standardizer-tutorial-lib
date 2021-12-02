@@ -16,6 +16,8 @@ dependencies:
   "@simatic-ax/io": 0.0.2
   "@simatic-ax/collections": 0.0.1
 files:
+  - "README.md"
+  - "LICENCE.md"
   - "./src"
   - "./doc"
 registries:
