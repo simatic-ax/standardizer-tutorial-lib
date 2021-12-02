@@ -29,7 +29,7 @@ After this training session:
 1. Select `Clone from Git`, paste the clone link into the `REPOSITORY` field and press `Create`. Wait until the workspace is created.  
 
    ![drawing](./images/clone-repo.png)
-    > WARNING: If your public key of AX is not in your GitHub profile, the creation of the tutorial will fail.
+    > NOTICE: If your public key of AX is not in your GitHub profile, the creation of the tutorial will fail.
 
 1. Open the workspace
 
@@ -37,7 +37,7 @@ After this training session:
 
 Before we continue with that tutorial, you've to login into the AX registry to be able to install the AX SDK.
 
-1. click on `Log in to AX to download extensions and Aax packages`
+1. click on `Log in to AX to download extensions and Apax packages`
 
     ![login](./images/login-1.png)
 
@@ -47,7 +47,7 @@ Before we continue with that tutorial, you've to login into the AX registry to b
 
     ![login](./images/copy_token.png)
 
-1. Switch back to workspace
+1. Switch back to workspace and check info box in the bottom right corner
 
 1. Select `enter token manually`
 
@@ -65,7 +65,7 @@ For this tutorial are further libraries required, which are hosted at a GitHub r
 
     ![drawing](./images/apax_login.png)  
 
-1. Enter the github URL
+1. Enter the Github URL
 
      ![drawing](./images/github_url.png)  
 
@@ -81,15 +81,15 @@ Now you're able to install all dependencies to develop on your library.
 
 ### Content of apax.yml
 
-If you're already familiar with `Apax` and the `apax.yml`
+If you're already familiar with `Apax` and the `apax.yml` you can skip this section.
 
-When you want to develop a library with AX then you need some developer tools. It's called SDK. The AX SDK contains some components like:
+If you want to develop a library with AX, you need some developer tools. It's called SDK. The AX SDK contains some components like:
     - AX Compiler
-    - AxUnit testing framework
-    - Simatic downloader
+    - AxUnit Testing Framework
+    - SIMATIC downloader
     - ...
 
-For this tutorial just the compiler and the AxUnit Testing framework are interesting. This tutorial uses some further dependencies from GitHub.
+For this tutorial just the compiler and the AxUnit Testing Framework are of interest. This tutorial uses some further dependencies from GitHub.
 
 Before we install all required dependencies, lets have a look into the apax.yml. The apax.yml is a configuration file for the Apax package manager. It contains all relevant information for the workspace.
 
@@ -101,25 +101,24 @@ In the header of this file you find some information about the project.
 
 - `name: standardizer-tutorial-lib` Contains the project name. In this case the library has the name `standardizer-tutorial-lib`
 - `version: 0.0.1` the version of the library.
-- `type: lib` the project type is lib (library project) another valid value is `app` (Application)
+- `type: lib` the project type is lib (library project) another valid value is `app` (application)
 
 > Note:  
 >
-> - a library need always a namespace
-> - a library can not be executed directly on a PLC
-> - because a library must not have a `CONFIGURATION` and a `PROGRAM` section, which is necessary to be executed on a PLC
+> - a library always needs a namespace
+> - a library can not be executed directly on a PLC because a library must have a `CONFIGURATION` and a `PROGRAM` section, which is necessary to be executed on a PLC
 
 #### **devDependencies**
 
-This section contains dte dependencies,, which are necessary during the development. Here just the `@ax/sdk` in version `0.2.499` is required.
+This section contains dev dependencies which are necessary during the development. In this case just the `@ax/sdk` in version `0.2.499` is required.
 
 #### **dependencies** and **registries**
 
-In this tutorial we also need some other libraries. Hence this are dependencies which are necessary for building the library.
+In this tutorial we need some other libraries. Hence these are dependencies which are necessary for building the library.
 
-In this example, there are two further libraries form the `@simatic-ax` registry required.
+In this example, there are two further libraries from the `@simatic-ax` registry required.
 
-For the moment, it's not important to know what the content of this libraries is. This libraries are hosted on GitHub. So we've to tell apax, where the GitHub Registry is located. This will be done in the section `registries`
+For the moment, it's not important to know what the content of these libraries is. These libraries are hosted on GitHub. So we've to tell Apax, where the GitHub registry is located. This will be done in the section `registries`
 The URL of the Github registry is:
 
 ```iec-st
@@ -137,7 +136,7 @@ https://npm.pkg.github.com/
     ![drawing](./images/installed.png)  
 
 **Alternative workflow:**
-You can open a terminal (e.g. by pressing `STRG+SHIFT+ö` German keyboard layout) and enter
+You can open a terminal (e.g. by pressing `STRG+SHIFT+ö` German keyboard layout) and press enter
 
 ```iec-st
 apax install -L 
@@ -160,7 +159,7 @@ If you do so, you can find a additional entry in th `apax.yml` in the section `d
 
 ![drawing](./images/adddep.png)  
 
-If you wondering, why this version is set with `^`0.4.2. That means that at minimum version 0.4.2 has to be used. If there a version 0.4.3 available, the version 0.4.3 will be installed.
+If you wondering, why this version is set with `^`0.4.2. That means that at minimum version 0.4.2 has to be used. If there is a version 0.4.3 available, the version 0.4.3 will be installed automatically. 
 
 //TODO apax extension
 
@@ -169,10 +168,10 @@ If you wondering, why this version is set with `^`0.4.2. That means that at mini
 Goal reached? Check yourself...
 
 - you are able to create workspaces with clone link in the WebIDE ✔
-- the login process in to the AX registry is known ✔
+- the login process for the AX registry is known ✔
 - the login into other (external) registries is known ✔
 - you've a rough overview about the apax.yml ✔
-- you can learn how to install dependencies
+- you can learn how to install dependencies ✔
 - you have heard, that there are different project types `lib`/`app` ✔
 - and you've heard the difference between `devDependencies` and `dependencies` ✔
 - you know how to add further dependencies ✔
