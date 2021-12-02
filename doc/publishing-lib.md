@@ -72,10 +72,65 @@ Apax is the package manager and build system for ST projects. Apax packages can 
 
     >Tip: you can open the *.tgz file with any zip/unzip program
 
-### 
+### Create package by scripts
+
+With Apax, you're able to define some own scripts. In this example we create a script which create a package with just one command.
+
+1. Open the apax.yml
+
+1. Copy the following code into your clipboard
+
+    ```yml
+    scripts:
+      createlib:
+        - apax build
+        - apax version $1
+        - apax keygen --override-existing
+        - apax pack
+    ```
+
+1. Insert this code into the apax.yml
+
+    The apax.yml should look like this:
+
+    ![debug](./doc/images/../../images/apax_script.png)
+
+1. Go to the terminal and enter:
+
+    ```cli
+    apax createlib 0.0.3
+    ```
+
+    Result: The commands
+
+    - apax build
+    - apax version 0.0.3
+    - apax keygen --override-existing
+    - apax pack
+
+    will be executed in sequence. In this case the $1 argument will be replaced by 0.0.3 from the command line parameter
+
+### Publish the package on a registry
+
+At this point, you've a deployable Apax package, which can be uploaded to an registry. This apax.yml is configured in a way, that the package will be published at the GitHub registry in the namespace `@simatic-ax`.
+
+In this tutorial, the package can not shipped to our registry
+
+To publish the the package enter:
+
+```cli
+apax publish --package *.apax.tgz --registry https://npm.pkg.github.com/
+```
 
 ## Summary
 
 Goal reached? Check yourself...
+
+- you have a rough overview what Apax is and you know the terms `package manager` `library` and `registry` ✔
+- you have knowledge how the content of a package can be defined ✔
+- you know the workflow, how an apax package will be created ✔
+- you know, how scripts can be added to the apax.yml ✔
+- you know that cli parameter can forwarded to scripts ✔
+- you've knowledge how a package could be transferred to a registry ✔
 
 [Back to overview](./../README.md)
