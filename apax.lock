@@ -351,20 +351,20 @@
   resolved "https://apax-prod-734703289705.d.codeartifact.eu-central-1.amazonaws.com:443/npm/ax/@ax/third-party-licenses-st-compiler/-/third-party-licenses-st-compiler-2.0.77.tgz#e9fcb75e6226f11b86c1c8879a1cfc7c4fddae30"
   integrity sha512-RsIJqTpbIsqFZtaH40KBOPpEdKD+14f5SpDrl560l3eWIBaid1elY7NYGGDEtqK9GzbJws+in28/XdPOxQQfXA==
 
-"@simatic-ax/collections@0.1.0":
-  version "0.1.0"
-  resolved "https://npm.pkg.github.com/download/@simatic-ax/collections/0.1.0/e7fadea7e2ebd09daa3ac12671aeaee761f551575c28aba5ba573fb1ccc774c0#128d6720743261a551f8ada4918f3f0923e2bc04"
-  integrity sha512-3KoH+lzj2YChq/BNZoRE3zHqeDKDiCwOtJsd/1n7Um1OKHmW24K16kW7KkCZP8u4lcCnM16QkIhzWNeSrCse+w==
+"@simatic-ax/collections@0.1.1":
+  version "0.1.1"
+  resolved "https://npm.pkg.github.com/download/@simatic-ax/collections/0.1.1/1a134107be2cf72cae266ad0925fb1fe371d5e6f4af89d5d6cb804a5eea70fe8#c98dc6b4689d72b1054f3300ce2e400238462eef"
+  integrity sha512-lcBhatD2R0qxBcnCUfW9f+C5pHbZyFeYmdR3lyXAcQXLHpgqnXeSPJhSSfjvOR/TPqX7Y8g/BnXJo4MUv08jRQ==
 
-"@simatic-ax/io@0.1.0":
-  version "0.1.0"
-  resolved "https://npm.pkg.github.com/download/@simatic-ax/io/0.1.0/f0ae1430c91e54761b8984d19a083d19a8e93aebf2e29d2cabf7689022b965ca#930d13006d774b692506ef4397b70c9d9c13755d"
-  integrity sha512-7vX5BLSixiT7ldoJJoWVG77+lJREz3t8K5OWrRqx/g2EfwHUqyxawCDAEFccInK4x+v2MnI0b39J5vI39Ua4LA==
+"@simatic-ax/io@0.1.1":
+  version "0.1.1"
+  resolved "https://npm.pkg.github.com/download/@simatic-ax/io/0.1.1/ecfd2f7ee4d4fe3bc45451ae01b76f28a4b7cf9980cc67b1196988723a40f40b#f9ab9f58e7062f257e573a852d88f50a0a23e946"
+  integrity sha512-CoPqx/TzLaNHegEttza1BIpWT51FBcdtK67seug364J1ztjpQ5C0us9YoVfS6lwKzTVDMfvsEF5vbBBsCwgJvQ==
   dependencies:
     "@ax/system-timer" "1.0.12"
-    "@simatic-ax/mocks" "0.1.0"
+    "@simatic-ax/mocks" "0.1.1"
 
-"@simatic-ax/mocks@0.1.0":
-  version "0.1.0"
-  resolved "https://npm.pkg.github.com/download/@simatic-ax/mocks/0.1.0/1956994aa039ed51ea286d037643a76f03d3673bb560ca9c1a496eee63308cbc#d36e03a354ab7ce6b4100e00c428bb24b5d2984d"
-  integrity sha512-8eeM/r9PptDVdnZP2WcF+priwIUAfVbVDN/QHuLjMcKAPkjm17Mjlm+nG6scDdNFYtDcJkxxuPJp4qWAgbEwKg==
+"@simatic-ax/mocks@0.1.1":
+  version "0.1.1"
+  resolved "https://npm.pkg.github.com/download/@simatic-ax/mocks/0.1.1/ac68cab01ebeabeea6e39e9eb1e2436bceb0ed98e2e92de2d9e870f75c66ac7e#4ecb4f4a89cade6bfca1cdc33eb5a610d0ab4293"
+  integrity sha512-P6DmR1gtpUzhvKxQhXJwnIK8RKD3tux+IQS6boaYsIXIb2H2uhNrm/1nwb6EdDu9syiYSVVmrfywuyWh0dNvLQ==

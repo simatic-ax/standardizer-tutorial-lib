@@ -13,11 +13,11 @@ variables:
     - --debug
 
 dependencies:
-  "@simatic-ax/io": 0.1.0
-  "@simatic-ax/collections": 0.1.0
+  "@simatic-ax/io": 0.1.1
+  "@simatic-ax/collections": 0.1.1
 files:
   - "README.md"
-  - "LICENCE.md"
+  - "LICENSE.md"
   - "./src"
   - "./doc"
 registries:
