@@ -1,4 +1,4 @@
-USING Siemens.Ax.IO.Input;
+USING Simatic.Ax.IO.Input;
 NAMESPACE Simatic.Ax.Tutorial    
     
     CLASS ValveFbClosed EXTENDS Solution.Valve IMPLEMENTS IValve

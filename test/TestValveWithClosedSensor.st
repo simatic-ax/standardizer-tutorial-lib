@@ -1,6 +1,6 @@
 USING Simatic.Ax.Tutorial;
-USING Siemens.Ax.IO.Output;
-USING Siemens.Ax.IO.Input;
+USING Simatic.Ax.IO.Output;
+USING Simatic.Ax.IO.Input;
 USING Simatic.Ax.UserAsserts;
 
 NAMESPACE Tutorial.Test

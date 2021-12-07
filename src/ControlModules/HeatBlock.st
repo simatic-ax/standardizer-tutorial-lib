@@ -1,4 +1,4 @@
-USING Siemens.Ax.IO.Input;
+USING Simatic.Ax.IO.Input;
 
 NAMESPACE Simatic.Ax.Tutorial
     CLASS HeatBlock IMPLEMENTS IHeater

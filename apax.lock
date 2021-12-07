@@ -345,20 +345,20 @@
   resolved "https://apax-prod-734703289705.d.codeartifact.eu-central-1.amazonaws.com:443/npm/ax/@ax/third-party-licenses-st-compiler/-/third-party-licenses-st-compiler-1.25.42.tgz#a78ce717cdd82ee626d296a3b357699422684798"
   integrity sha512-ek9/tVzGtSMbnUCXw3s5o07eA61bd0H8k366mPV+lxgRitzXy59LHf2FCSNRT2P++LabLYkfuVu2z43malyf3g==
 
-"@simatic-ax/collections@0.0.1":
-  version "0.0.1"
-  resolved "https://npm.pkg.github.com/download/@simatic-ax/collections/0.0.1/4e6f9a375dc7af526981f4740b21535556b5e968fd92a3d46f2704751b696710#7efd9f463736e7204463f0ac8f3ce2d6d511a250"
-  integrity sha512-fdO9QHW7Nnlrk8X5RoQNDtfFPog+Qh740tcH2hyzVZgOZrxfRh9dnElaOk6DLxI5fNzJlDkjA8PrSkv3L76pYw==
-
-"@simatic-ax/io@0.0.2":
+"@simatic-ax/collections@0.0.2":
   version "0.0.2"
-  resolved "https://npm.pkg.github.com/download/@simatic-ax/io/0.0.2/226ab6410807759b8859d330d9e568356af785500ecbe38d5fc5137da7b01662#90279d2651a7d119428a5c750bb308058a5510cb"
-  integrity sha512-LNQGOAUdiHop9NFmWtOx3Gia2AAHksNoOtZyiTLJV0nSrgOXFUO0EJufx70skovstIHUiZCjfu4I/W0AvBOc9g==
+  resolved "https://npm.pkg.github.com/download/@simatic-ax/collections/0.0.2/6437c09abc5b456bcc0bcd64d9cdddacb2140fa18079acac85bb855707409cde#17be929f6b0f3a0b2d643e56d284796553be2bc6"
+  integrity sha512-YWns1UAv2U6QDgJojrpl0YoWknNzpW9NTFnxukIF1tLcnKjFQapR4f+f9xaeZPHqLeRMHej/aOWEPx5wW6BJtQ==
+
+"@simatic-ax/io@0.0.3":
+  version "0.0.3"
+  resolved "https://npm.pkg.github.com/download/@simatic-ax/io/0.0.3/96ea205f515dc9b7b8777c187163acf65eb5619f928acb0e080becf59b88e80f#f4d8a6eb714e3bda115d5719c25c81d659de60e9"
+  integrity sha512-bTr83dM7Afji0mPshQJ1R+ihvO/3EK+aQRy4x2+kcXjJh4qKAJcAPZqgzJrPhXZLQ5klmRqUCMgYUtZDGmQwFw==
   dependencies:
     "@ax/system-timer" "0.4.2"
-    "@simatic-ax/mocks" "0.0.1"
+    "@simatic-ax/mocks" "0.0.2"
 
-"@simatic-ax/mocks@0.0.1":
-  version "0.0.1"
-  resolved "https://npm.pkg.github.com/download/@simatic-ax/mocks/0.0.1/c24d2360e4a4fa86fa2cc5fd3e60e2f7bbaf0ddb6409f5eeb0c56b838a21bba6#aa10cf328415c1d63b80855d8014d64636a5bbee"
-  integrity sha512-iLWX9Y/bte+kh2q++33qNPsQ0c6F13lQgBrmqDHuHyYAwEAUfQWCB87VBwQLPhMvOQhMyf2hSa+qOlTs5yQqYg==
+"@simatic-ax/mocks@0.0.2":
+  version "0.0.2"
+  resolved "https://npm.pkg.github.com/download/@simatic-ax/mocks/0.0.2/83b133224713a902612f2760ed33280876fecd2073f6314bf63580bf76e7ab58#74b086cdfa105c1112b515a3dee4b60ea70c25d5"
+  integrity sha512-ChnyG83H8CcFPHeOnvHf0gF7DCLbcrZHvHLUobJIcMf/CBSRKjYEJRoa1EBisB3vLpfD8KcaYLt9T/UdNS04ug==

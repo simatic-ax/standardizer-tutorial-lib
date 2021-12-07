@@ -1,4 +1,4 @@
-USING Siemens.Ax.Collections;
+USING Simatic.Ax.Collections;
 
 NAMESPACE Simatic.Ax.Tutorial
     CLASS ABSTRACT Receipe EXTENDS LinkedList IMPLEMENTS IReceipe
