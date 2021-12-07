@@ -6,15 +6,15 @@ targets:
   - "axunit-llvm"
 
 devDependencies:
-  "@ax/sdk": 0.2.449
+  "@ax/sdk": 1.0.63
 
 variables:
   APAX_BUILD_ARGS:
     - --debug
 
 dependencies:
-  "@simatic-ax/io": 0.0.3
-  "@simatic-ax/collections": 0.0.2
+  "@simatic-ax/io": 0.1.0
+  "@simatic-ax/collections": 0.1.0
 files:
   - "README.md"
   - "LICENCE.md"
