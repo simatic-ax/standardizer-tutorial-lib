@@ -39,3 +39,11 @@ This tutorial is structures in multiple sequential chapters. Execept [Apax packa
 - You've created a valid personal access token to access the GitHub registry
   - [create personal access token on GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
   - >Note: You need this token to login into the `simatic-ax` GitHub registry (URL: <https://npm.pkg.github.com/>) with `apax login`
+
+## Contribution
+
+Thanks for your interest in contributing. Anybody is free to report bugs, unclear documentation, and other problems regarding this repository in the Issues section or, even better, is free to propose any changes to this repository using Merge Requests.
+
+## License and Legal information
+
+Please read the [Legal information](LICENSE.md)
