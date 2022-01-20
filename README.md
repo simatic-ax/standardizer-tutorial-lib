@@ -14,7 +14,7 @@ After this tutorial, you:
 - know the debugging extension
 - and your able to create your own package and know how to publish it
 
-This tutorial is structures in multiple sequential chapters. Execept [Apax package manager usage](./doc/setup.md) all chapters are optionally. But [Write own unit tests with AxUnit](./doc/write-tests.md) depends on [Introduction in OOP](./doc/oop-introduction.md)
+This tutorial is structures in multiple sequential chapters. Except [Apax package manager usage](./doc/setup.md) all chapters are optionally. But [Write own unit tests with AxUnit](./doc/write-tests.md) depends on [Introduction in OOP](./doc/oop-introduction.md)
 
 ## Training chapters
 
