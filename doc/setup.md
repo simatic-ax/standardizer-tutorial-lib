@@ -8,7 +8,9 @@ After this training session:
 - the login process in to the AX registry is known
 - the login into other (external) registries is known
 - you've a rough overview about the apax.yml
-- you can learn how to install dependencies
+- you learn how to install dependencies
+- you know the apax extension
+- you know how to update dependencies
 - you have heard, that there are different project types `lib`/`app`
 - and you've heard the difference between `devDependencies` and `dependencies`
 - you know how to add further dependencies
@@ -133,7 +135,7 @@ https://npm.pkg.github.com/
 
 1. Wait until a the message appears
 
-    ![drawing](./images/installed.png)  
+   ![drawing](./images/installed.png)  
 
 **Alternative workflow:**
 You can open a terminal (e.g. by pressing `STRG+SHIFT+ö` German keyboard layout) and press enter
@@ -146,7 +148,19 @@ This command is equivalent to `Install dependencies`
 
 ### Adding dependencies
 
-Further dependencies can be added also via command line if you know the name of the package.
+
+
+Further dependencies can be added with the `Apax extension`
+
+  ![](images/apaxextension.png)
+
+   1. Open the `apax extension`
+   1. enter `syst` into the text field to filter teh available packages
+   1. select the package `@ax/system-timer` 
+   1. click on `install`
+
+
+alternatively, you can install the dependencies via command line:
 
 Example:
 Install the system library system-timer
@@ -155,13 +169,33 @@ Install the system library system-timer
 apax add @ax/system-timer
 ```
 
-If you do so, you can find a additional entry in th `apax.yml` in the section `dependencies`.
+The result is: you can find a additional entry in th `apax.yml` in the section `dependencies`.
 
 ![drawing](./images/adddep.png)  
 
-If you wondering, why this version is set with `^`0.4.2. That means that at minimum version 0.4.2 has to be used. If there is a version 0.4.3 available, the version 0.4.3 will be installed automatically. 
+If you wondering, why this version is set with `^`0.4.2. That means that at minimum version 0.4.2 has to be used. If there is a version 0.4.3 available, the version 0.4.3 will be installed with the command `apax install` and even with `apax install -L`
 
-//TODO apax extension
+> The command `apax update` will install the latest package and removes the `^` and set the version explicitly.
+
+> It's recommended to work with explicit version numbers. Example: `1.0.2` instead of `^1.0.2`.
+
+### Update dependencies
+
+Sometimes, there are newer versions of a packages available. These dependencies can be updated also with apax. 
+
+1. Via Apax extension
+
+    ![](images/update.png)
+
+    1. Open the `Apax extension` and select the section `IN PROJECT` 
+
+    1. Select the package you want to update and click on `Update`
+
+
+1. Via command line
+
+    1. Enter `apax update` in the terminal (if there are updates available, you will get a dialog, where you can select the packages you want to update)
+    1. Or enter `apax update -a` to update all dependencies automatically
 
 ### Summary
 
@@ -171,7 +205,9 @@ Goal reached? Check yourself...
 - the login process for the AX registry is known ✔
 - the login into other (external) registries is known ✔
 - you've a rough overview about the apax.yml ✔
-- you can learn how to install dependencies ✔
+- you learn how to install dependencies ✔
+- you know the apax extension ✔
+- you know how to update dependencies ✔
 - you have heard, that there are different project types `lib`/`app` ✔
 - and you've heard the difference between `devDependencies` and `dependencies` ✔
 - you know how to add further dependencies ✔
