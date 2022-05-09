@@ -1,6 +1,6 @@
 # Standardizer Tutorial (only cloud based)
 
-In this standardizer tutorial, you'll learn all important tools which are necessary to develop a ST library with AX.
+In this standardizer tutorial, you'll learn all important tools which are necessary to develop a ST library with SIMATIC AX.
 
 Although the tutorial focuses on the cloud IDE, the workflows are very similar within the local IDE. Differences will be mentioned in within the tutorial, but not explained in detail.
 
