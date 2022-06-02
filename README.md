@@ -9,12 +9,12 @@ After this tutorial, you:
 - know basics about Apax
 - have a brief introduction into OOP with ST
 - have used the AxUnit testing framework
-- are able top write simple test classes
+- are able to write simple test classes
 - know something about parameterized tests
 - know the debugging extension
 - are able to create your own package and know how to publish it
 
-This tutorial is structured in multiple sequential chapters. Except [Apax package manager usage](./doc/setup.md) all chapters are optionally. But [Write own unit tests with AxUnit](./doc/write-tests.md) depends on [Introduction in OOP](./doc/oop-introduction.md)
+This tutorial is structured in multiple sequential chapters. Except [Apax package manager usage](./doc/setup.md) all chapters are optional. But [Write own unit tests with AxUnit](./doc/write-tests.md) depends on [Introduction in OOP](./doc/oop-introduction.md)
 ## Training chapters
 
 - [Apax package manager usage](./doc/setup.md) (mandatory for all other chapters)
