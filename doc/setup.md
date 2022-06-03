@@ -71,6 +71,10 @@ For this tutorial are further libraries required, which are hosted at a GitHub r
 
      ![drawing](./images/github_url.png)  
 
+    ```url
+    https://npm.pkg.github.com/
+    ```
+
 1. Leave the user name field empty and press `Enter`
 
     ![drawing](./images/enter.png)  
