@@ -166,7 +166,7 @@ In the last step, you tried to declare a Variable of the type `IBinOutput`. This
 1. Insert:
 
     ```ies-st
-    USING Siemens.Ax.IO.Output; 
+    USING Simatic.Ax.IO.Output; 
     ```
 
     Result:
@@ -175,7 +175,7 @@ In the last step, you tried to declare a Variable of the type `IBinOutput`. This
      - your code should look like:
 
         ```iec-st
-        USING Siemens.Ax.IO.Output;
+        USING Simatic.Ax.IO.Output;
 
         NAMESPACE Simatic.Ax.Tutorial
             CLASS Valve IMPLEMENTS IValve
