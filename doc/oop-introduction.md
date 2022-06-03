@@ -1,6 +1,6 @@
 # Introduction in OOP
 
-## Goal for this trainig chapter
+## Goal for this training chapter
 
 After this training session:
 
@@ -10,7 +10,7 @@ After this training session:
 - you have implemented an interface
 - you're familiar with the `USING` keyword
 - are able to declare `PRIVATE` and `PUBLIC` variables
-- you've seen an example for a enumeration and you know how to use enumerations
+- you've seen an example for an enumeration and you know how to use enumerations
 - you know how you find a 'Definition'
 
 Not part of this tutorial is:
