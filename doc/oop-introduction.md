@@ -253,7 +253,7 @@ The interface `IValve` expects a further method `GetState : ValveState`. The ret
 
     Result:
 
-    The file `TypeValveStatus.st` will be opened and shows the following content:
+    The file `TypeValveStatus.st` will be opened and shows how a enumeration is defined is ST language:
 
     ```iec-st
     NAMESPACE Simatic.Ax.Tutorial
