@@ -166,7 +166,7 @@ In the last step, you tried to declare a Variable of the type `IBinOutput`. This
 1. Insert:
 
     ```ies-st
-    USING Siemens.Ax.IO.Output; 
+    USING Simatic.Ax.IO.Output; 
     ```
 
     Result:
@@ -175,7 +175,7 @@ In the last step, you tried to declare a Variable of the type `IBinOutput`. This
      - your code should look like:
 
         ```iec-st
-        USING Siemens.Ax.IO.Output;
+        USING Simatic.Ax.IO.Output;
 
         NAMESPACE Simatic.Ax.Tutorial
             CLASS Valve IMPLEMENTS IValve
@@ -208,17 +208,10 @@ Now we're implementing the interface methods.
     END_METHOD
     ```
 
-1. Insert the method IsOpen as shown below
+1. Insert the additional method `IsOpen` as shown below
 
     ```iec-st
     ...
-    METHOD PUBLIC SetRefToDQ
-        VAR_INPUT
-            dq : IBinOutput;
-        END_VAR
-        qValve := dq;
-    END_METHOD
-
     METHOD PUBLIC IsOpen : BOOL
             IsOpen := _valveState;
     END_METHOD
@@ -260,7 +253,7 @@ The interface `IValve` expects a further method `GetState : ValveState`. The ret
 
     Result:
 
-    The file `TypeValveStatus.st` will be opened and shows the following content:
+    The file `TypeValveStatus.st` will be opened and shows how a enumeration is defined is ST language:
 
     ```iec-st
     NAMESPACE Simatic.Ax.Tutorial
