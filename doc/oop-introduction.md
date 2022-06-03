@@ -208,17 +208,10 @@ Now we're implementing the interface methods.
     END_METHOD
     ```
 
-1. Insert the method IsOpen as shown below
+1. Insert the additional method `IsOpen` as shown below
 
     ```iec-st
     ...
-    METHOD PUBLIC SetRefToDQ
-        VAR_INPUT
-            dq : IBinOutput;
-        END_VAR
-        qValve := dq;
-    END_METHOD
-
     METHOD PUBLIC IsOpen : BOOL
             IsOpen := _valveState;
     END_METHOD
