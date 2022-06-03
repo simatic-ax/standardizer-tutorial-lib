@@ -71,6 +71,10 @@ For this tutorial are further libraries required, which are hosted at a GitHub r
 
      ![drawing](./images/github_url.png)  
 
+    ```url
+    https://npm.pkg.github.com/
+    ```
+
 1. Leave the user name field empty and press `Enter`
 
     ![drawing](./images/enter.png)  
@@ -120,13 +124,20 @@ In this tutorial we need some other libraries. Hence these are dependencies whic
 
 In this example, there are two further libraries from the `@simatic-ax` registry required.
 
-For the moment, it's not important to know what the content of these libraries is. These libraries are hosted on GitHub. So we've to tell Apax, where the GitHub registry is located. This will be done in the section `registries`
-The URL of the Github registry is:
-
-```iec-st
-https://npm.pkg.github.com/
+These two libraries are:
+```yml
+dependencies:
+  "@simatic-ax/io": 0.1.1
+  "@simatic-ax/collections": 0.1.1
 ```
 
+For the moment, it's not important to know what the content of these libraries is. These libraries are hosted on GitHub. So we've to tell Apax, where the GitHub registry is located. This will be done in the section `registries`
+Therefore the registries section in the apax.yml is responsible:
+
+```yml
+registries:
+  '@simatic-ax': 'https://npm.pkg.github.com/'
+```
 ### Install dependencies
 
 1. Right click on the `apax.yml` and select `Install dependencies`
@@ -148,9 +159,9 @@ This command is equivalent to `Install dependencies`
 
 ### Adding dependencies
 
+If you need further dependencies, then you can add them with the `Apax extension`
 
-
-Further dependencies can be added with the `Apax extension`
+Example to install the library `@ax/system-timer` 
 
   ![](images/apaxextension.png)
 
@@ -163,7 +174,7 @@ Further dependencies can be added with the `Apax extension`
 alternatively, you can install the dependencies via command line:
 
 Example:
-Install the system library system-timer
+Install the system library `@ax/system-timer`
 
 ```iec-st
 apax add @ax/system-timer
