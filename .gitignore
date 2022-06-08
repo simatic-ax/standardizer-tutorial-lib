@@ -5,3 +5,8 @@ obj
 testResult
 result.tracerec.json
 .gitlab-ci.yml
+*.apax.tgz
+node_modules
+package.json
+package-lock.json
+storage/.verdaccio-db.json

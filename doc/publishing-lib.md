@@ -9,7 +9,6 @@ After this training session:
 - you know the workflow, how an apax package will be created
 - you know, how scripts can be added to the apax.yml
 - you know that cli parameter can forwarded to scripts
-- you've knowledge how a package could be transferred to a registry
 
 ### Apax the package manager
 
@@ -112,15 +111,9 @@ With Apax, you're able to define some own scripts. In this example we create a s
 
 ### Publish the package on a registry
 
-At this point, you've a deployable Apax package, which can be uploaded to an registry. This apax.yml is configured in a way, that the package will be published at the GitHub registry in the namespace `@simatic-ax`.
+At this point, you've a deployable Apax package, which can be uploaded to an registry.
 
-In this tutorial, the package can not shipped to our registry
-
-To publish the the package enter:
-
-```cli
-apax publish --package *.apax.tgz --registry https://npm.pkg.github.com/
-```
+For training purposes, you can test the workflow on a local registry. A guide, how to do that, can you find here --> [publish package on a registry](setup_local_registry.md)
 
 ## Summary
 
@@ -131,6 +124,5 @@ Goal reached? Check yourself...
 - you know the workflow, how an apax package will be created ✔
 - you know, how scripts can be added to the apax.yml ✔
 - you know that cli parameter can forwarded to scripts ✔
-- you've knowledge how a package could be transferred to a registry ✔
 
 [Back to overview](./../README.md)
