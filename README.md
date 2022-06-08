@@ -24,7 +24,8 @@ This tutorial is structured in multiple sequential chapters. Be sure to read [Ap
 - [Write own unit tests with AxUnit](./doc/write-tests.md) (depends on [Introduction in OOP](./doc/oop-introduction.md))
 - [Parameterized tests](./doc/parametrized-tests.md)
 - [Debugging of tests](./doc/test-debugging.md)
-- [Packing and publishing libraries](./doc/publishing-lib.md)
+- [Creation of an apax package](./doc/publishing-lib.md)
+- [Publishing of an apax package](./doc/setup_local_registry.md)
 
 ## Prerequisites
 

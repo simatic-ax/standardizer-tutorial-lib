@@ -63,29 +63,14 @@ But if you have the need (e.g. for training purposes or on site use cases withou
 
     You can check the available packages on the [package registry](http://localhost:4873)
 
-### Create and publish a new version
 
-1. create a new version
 
-    ```sh
-    apax version 0.0.2
-    ```
+## HandsOn
 
-1. pack 
+Create a new Version of the package and publish it to the local registry. Check your results.
 
-    ```sh
-    apax pack
-    ```
 
-1. Publish
-
-    ```
-    apax publish --package simatic-ax-standardizer-tutorial-lib-0.0.2.apax.tgz --registry http://localhost:4873/
-    ```
-
-    You can check the available packages on the [package registry](http://localhost:4873)
-
-## Goal for this training chapter
+## Goal reached? Check yourself...
 - learn how to publish packages on a registry ✔
 - know how to setup a local registry ✔
 
