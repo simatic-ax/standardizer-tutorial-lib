@@ -7,7 +7,7 @@ Although this tutorial focuses on the cloud IDE, the workflows are very similar 
 After this tutorial, you will:
 
 - know the basics about Apax
-- be familiar with OOP in ST
+- know how to write OOP code in ST
 - know how to use the AxUnit testing framework
 - be able to write simple test classes
 - be familiar with writing parameterized tests
@@ -18,7 +18,7 @@ This tutorial is structured in multiple sequential chapters. Be sure to read [Ap
 ## Training chapters
 
 - [Apax package manager usage](./doc/setup.md) (mandatory for all other chapters)
-- [Introduction to OOP](./doc/oop-introduction.md)
+- [Writing OOP Code using ST](./doc/oop-introduction.md)
 - [User defined snippets](./doc/user-defined-snippets.md)
 - [Usage of the testing framework](./doc/testing-framework.md)
 - [Write own unit tests with AxUnit](./doc/write-tests.md) (depends on [Introduction in OOP](./doc/oop-introduction.md))

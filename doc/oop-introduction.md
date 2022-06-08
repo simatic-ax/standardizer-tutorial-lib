@@ -1,4 +1,4 @@
-# Introduction in OOP
+# Writing OOP Code using ST
 
 ## Goal for this training chapter
 
