@@ -26,6 +26,8 @@ This tutorial is structured in multiple sequential chapters. Be sure to read [Ap
 - [Debugging of tests](./doc/test-debugging.md)
 - [Creation of an apax package](./doc/publishing-lib.md)
 - [Publishing of an apax package](./doc/setup_local_registry.md)
+- [Key-Handling with apax](./doc/public_keys.md)
+  
 
 ## Prerequisites
 

@@ -82,3 +82,13 @@ If it is necessary, a new key pair can be created with the following command:
 apax keygen --override-existing
 ```
 
+
+
+## Summary
+
+Goal reached? Check yourself...
+
+- you know, for what the package signature is useful ✔
+- you are able to enable the signature check ✔
+- you know, where you find your own public key for package creation ✔
+- you know, how a new key pair can be created ✔
