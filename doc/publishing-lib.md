@@ -60,6 +60,11 @@ Apax is the package manager and build system for ST projects. Apax packages can 
     ```cli
     apax keygen --override-existing
     ```
+    > usually, a public key needs to be created once
+
+    For what and how the public keys are used, you find later in this tutorial (public keys).
+
+
 
 1. now we're able to create the package with the command:
 
@@ -70,6 +75,15 @@ Apax is the package manager and build system for ST projects. Apax packages can 
     Result: The package with the name `simatic-ax-standardizer-tutorial-lib-0.0.2.apax.tgz` appears in the explorer on the left side.
 
     >Tip: you can open the *.tgz file with any zip/unzip program
+
+### Key generation
+Before we can generate a package, a key pair for package  signing has to be created once.
+
+If not already done, the key can created with the command:
+
+```sh
+apax keygen
+```
 
 ### Create package by scripts
 
@@ -84,7 +98,6 @@ With Apax, you're able to define some own scripts. In this example we create a s
       createlib:
         - apax build
         - apax version $1
-        - apax keygen --override-existing
         - apax pack
     ```
 
@@ -104,7 +117,6 @@ With Apax, you're able to define some own scripts. In this example we create a s
 
     - apax build
     - apax version 0.0.3
-    - apax keygen --override-existing
     - apax pack
 
     will be executed in sequence. In this case the $1 argument will be replaced by 0.0.3 from the command line parameter
@@ -119,7 +131,7 @@ For training purposes, you can test the workflow on a local registry. A guide, h
 
 Goal reached? Check yourself...
 
-- you have a rough overview what Apax is and you know the terms `package manager` `library` and `registry` ✔
+- you have a rough overview what Apax is and you know the terms `package manager`, `library` and `registry` ✔
 - you have knowledge how the content of a package can be defined ✔
 - you know the workflow, how an apax package will be created ✔
 - you know, how scripts can be added to the apax.yml ✔
