@@ -35,29 +35,7 @@ After this training session:
 
 1. Open the workspace
 
-### Login into AX registry
 
-Before we continue with that tutorial, you've to login into the AX registry to be able to install the AX SDK.
-
-1. click on `Log in to AX to download extensions and Apax packages`
-
-    ![login](./images/login-1.png)
-
-    a new browser window opens
-
-1. copy the token into your clipboard by clicking `Copy`
-
-    ![login](./images/copy_token.png)
-
-1. Switch back to workspace and check info box in the bottom right corner
-
-1. Select `enter token manually`
-
-    ![login](./images/login-2.png)  
-
-1. Enter token with `Strg+V` (**don't select "paste" from the context menu**)  
-
-   ![login](./images/login-3.png)
 
 ### Login to other registry
 
