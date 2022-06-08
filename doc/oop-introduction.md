@@ -4,19 +4,19 @@
 
 After this training session:
 
-- you are able to create a new ST-File
+- you are able to create a new ST file
 - you know how to define a namespace
 - you know how a class and methods will be declared
 - you have implemented an interface
-- you're familiar with the `USING` keyword
+- you are familiar with the `USING` keyword
 - are able to declare `PRIVATE` and `PUBLIC` variables
 - you've seen an example for an enumeration and you know how to use enumerations
 - you know how you find a 'Definition'
 
-Not part of this tutorial is:
+Not inlcuded in this tutorial:
 
-- achieve knowledge about object orientated programming
-- realizing OOP design patterns
+- Achieving knowledge about object orientated programming
+- Realizing OOP design patterns
 
 ### Create a new ST file
 
@@ -61,7 +61,7 @@ END_NAMESPACE
 
 ### Declare the class Valve
 
-1. type `class` and a snippet `class, Class` should be provided.Select it and press `enter`
+1. type `class` and a snippet `class, Class` should be provided. Select it and press `enter`
 
     ![drawing](./images/classtemp.png)
 
@@ -159,7 +159,7 @@ Since Valve is a kind of any valve, the interface IValve shall be implemented.
 
 ### Usage of the `USING` keyword
 
-In the last step, you tried to declare a Variable of the type `IBinOutput`. This type is not known in the namespace `Simatic.Ax.Tutorial`. So you've to announce the namespace, where `IBinOutput` is located .
+In the last step you tried to declare a variable of the type `IBinOutput`. This type is not known in the namespace `Simatic.Ax.Tutorial`. So you have to announce the namespace where `IBinOutput` is located .
 
 1. Go to the top of the file Valve.st
 
@@ -184,7 +184,7 @@ In the last step, you tried to declare a Variable of the type `IBinOutput`. This
 
 ### Implement the methods `Open`, `Close`, `IsOpen`
 
-Now we're implementing the interface methods.
+Now, we're implementing the interface methods.
 
 1. Go to the method `Close` and implement the method as shown below:
 
@@ -236,7 +236,7 @@ The interface `IValve` expects a further method `GetState : ValveState`. The ret
     END_METHOD
     ```
 
-    In the case of a closed Valve, the function returns the Value `ValveState#Closed`. In the case the valve is open, the method returns the value `ValveState#Open`.
+    In the case of a closed Valve, the function returns the Value `ValveState#Closed`. In the case the valve is open, the method returns the value `ValveState#Open.
 
     > Members of enumerations can be accessed by using TypeName#Value. For example `ValveState#Closed`
 
@@ -267,14 +267,14 @@ The interface `IValve` expects a further method `GetState : ValveState`. The ret
 
 Goal reached? Check yourself...
 
-- you are able to create a new ST-File ✔
+- you are able to create a new ST file ✔
 - you know how to define a namespace ✔
 - you know how a classes and methods will be declared ✔
 - you have implemented an interface ✔
-- you're familiar with the `USING` keyword ✔
+- you are familiar with the `USING` keyword ✔
 - are able to declare `PRIVATE` and `PUBLIC` variables ✔
 - you know how you find a 'Definition' ✔
-- you've seen an example for a enumeration and you know how to use enumerations ✔
+- you have seen an example for an enumeration and you know how to use it ✔
 
 
 [Back to overview](./../README.md)
