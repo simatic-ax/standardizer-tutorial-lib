@@ -2,20 +2,18 @@
 
 ## Goal for this training chapter
 
-After this training session:
+After this training session, you will:
 
-- you are able to create workspaces with clone link in the Web IDE
-- the login process into the AX registry is known
-- the login into other (external) registries is known
-- you have a rough overview about the apax.yml
-- you learn how to install dependencies
-- you know the Apax extension
-- you know how to update dependencies
-- you have heard about the different project types `lib`/`app`
-- you know the difference between `devDependencies` and `dependencies`
-- you know how to add further dependencies
+- be able to create workspaces using the clone link in the Web IDE
+- know how to login to the AX registry 
+- kwow how to login to other (external) registries
+- have a rough overview about `apax.yml`
+- learn how to install and update dependencies using the Apax extension
+- be familiar with the different project types `lib`/`app`
+- know the difference between `devDependencies` and `dependencies`
+- know how to add further dependencies
 
-### Cloning the workspace with clone link
+### Cloning the workspace with the clone link
 
 1. Copy the clone link to your clipboard:
 
@@ -31,13 +29,13 @@ After this training session:
 1. Select `Clone from Git`, paste the clone link into the `REPOSITORY` field and press `Create`. Wait until the workspace is created.  
 
    ![drawing](./images/clone-repo.png)
-    > NOTICE: If your public key of AX is not in your GitHub profile, the creation of the tutorial will fail.
+    > NOTE: If your AX public key is not in your GitHub profile, the new workspace will not be able to clone the tutorial code.
 
 1. Open the workspace
 
 
 
-### Login to another registry
+### Logging into another registry
 
 For this tutorial, further libraries are required which are hosted on a GitHub registry @simatic-ax. To consume them, it is necessary to login into the GitHub registry.
 
@@ -57,23 +55,23 @@ For this tutorial, further libraries are required which are hosted on a GitHub r
 
     ![drawing](./images/enter.png)  
 
-1. Enter your personal access token from GitHub with `Strg+V`
+1. Enter your personal access token from GitHub with `Strg+V` (`Ctrl+V`)
 
     ![drawing](./images/token.png)  
 
-Now you are able to install all dependencies to develop on your library.
+Now you are able to install all necessary dependencies to develop your library.
 
-### Content of apax.yml
+### Introducing apax.yml
 
 If you are already familiar with `Apax` and the `apax.yml` you can skip this section.
 
-If you want to develop a library with SIMATIC AX, you need some developer tools called SDK (Software Development Kit). The AX SDK contains some components like:
+If you want to develop a library with SIMATIC AX, you will need some developer tools from the AX SDK (Software Development Kit). The AX SDK contains some components like:
     - AX Compiler
     - AxUnit Testing Framework
     - SIMATIC downloader
     - ...
 
-For this tutorial just the AX Compiler and the AxUnit Testing Framework are of interest. This tutorial uses some further dependencies from GitHub.
+For this tutorial, only the AX Compiler and the AxUnit Testing Framework are of interest. This tutorial uses some additional dependencies from GitHub.
 
 Before we install all required dependencies, let's have a look into the apax.yml. The apax.yml is a configuration file for the Apax package manager. It contains all relevant information for the workspace.
 
@@ -81,7 +79,7 @@ Before we install all required dependencies, let's have a look into the apax.yml
 
 #### **Project information**
 
-In the header of this file you find some information about the project.
+The header of this file includes some basic information about the project.
 
 - `name: standardizer-tutorial-lib` Contains the project name. In this case the library has the name `standardizer-tutorial-lib`
 - `version: 0.0.1` the version of the library
@@ -94,13 +92,13 @@ In the header of this file you find some information about the project.
 
 #### **devDependencies**
 
-This section contains dev dependencies which are necessary during the development. In this case just the `@ax/sdk` in version `0.2.499` is required.
+This section contains dev dependencies which are necessary during development. In this case only the `@ax/sdk` version `0.2.499` is required.
 
 #### **dependencies** and **registries**
 
-In this tutorial we need some other libraries. Hence these are dependencies which are necessary for building the library.
+In this tutorial, we need some other libraries. Hence these are dependencies which are necessary for building the library.
 
-In this example, there are two further libraries from the `@simatic-ax` registry required.
+In this example, two additional libraries from the `@simatic-ax` registry are required.
 
 These two libraries are:
 ```yml
@@ -109,7 +107,7 @@ dependencies:
   "@simatic-ax/collections": 0.1.1
 ```
 
-For now, it's not important to know what the content of these libraries is. These libraries are hosted on GitHub. So we hy d to tell Apax where the GitHub registry is located. This will be done in the section `registries`
+For now, it's not important to know what the content of these libraries is. These libraries are hosted on GitHub. So we need to tell Apax where the GitHub registry is located. This will be done in the section `registries`
 Therefore the registries section in the apax.yml is responsible:
 
 ```yml
@@ -127,7 +125,7 @@ registries:
    ![drawing](./images/installed.png)  
 
 **Alternative workflow:**
-You can open a terminal (e.g. by pressing `STRG+SHIFT+ö` German keyboard layout) and press enter
+You can open a terminal (e.g. by pressing `STRG+SHIFT+ö` German keyboard layout, CTRL+` USA keyboard layout) and press enter
 
 ```iec-st
 apax install -L 
