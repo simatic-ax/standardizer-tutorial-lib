@@ -7,3 +7,4 @@ result.tracerec.json
 .gitlab-ci.yml
 node_modules
 storage
+apax-lock.json
