@@ -1,0 +1,6 @@
+NAMESPACE Simatic.Ax.Collections
+
+    INTERFACE ICollection
+    END_INTERFACE
+
+END_NAMESPACE
