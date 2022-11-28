@@ -99,7 +99,7 @@ Since Valve is a kind of any valve, the interface IValve shall be implemented.
 
     ![drawing](./images/Quickfix.png)
 
-2. Click on `Implement missing Methods`
+1. Click on `Implement missing Methods`
 
     ![drawing](./images/implement.png)
 
@@ -275,6 +275,5 @@ Goal reached? Check yourself...
 - are able to declare `PRIVATE` and `PUBLIC` variables ✔
 - you know how you find a 'Definition' ✔
 - you have seen an example for an enumeration and you know how to use it ✔
-
 
 [Back to overview](./../README.md)

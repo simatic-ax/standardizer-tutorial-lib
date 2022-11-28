@@ -19,12 +19,12 @@ After this training session:
 
     Here you can see a template for a test class. It's marked with the pragma `{TestFixture}`
 
-    > Tip: You can filter the files in the Explorer: 
+    > Tip: You can filter the files in the Explorer:
     >
-    > ![drawing](./images/filer.png) 
-    > 
+    > ![drawing](./images/filer.png)
+    >
     > More information you'll find [here](https://code.visualstudio.com/docs/getstarted/userinterface#_explorer)
-
+    >
     > AxUnit support not just test classes. It supports also [test functions](https://console.prod.ax.siemens.cloud/docs/axunit#how-to-write-unit-tests)
 
 1. Insert a test method. By entering `te` the snippet `test-method` will be proposed. And press enter
@@ -72,9 +72,6 @@ After this training session:
   
         More information regarding testing, you'll find [here]([./images/test_fixture.png](https://console.prod.ax.siemens.cloud/docs/axunit))
 
-
-
-
 ## Summary
 
 Goal reached? Check yourself...
@@ -85,6 +82,3 @@ Goal reached? Check yourself...
 - use full qualified type identifier for items in namespaces ✔
 - you know, where you find information for writing test functions ✔
 - you know where you find guidelines and tips for writing tests ✔
-
- 
-

@@ -15,6 +15,7 @@ After this tutorial, you will:
 - are able to create your own package and know how to publish it
 
 This tutorial is structured in multiple sequential chapters. Be sure to read [Apax package manager usage](./doc/setup.md) first, as it contains necessary steps to enable work later in tutorial. All other chapters can be read in any order, but note that [Write own unit tests with AxUnit](./doc/write-tests.md) depends on [Introduction in OOP](./doc/oop-introduction.md).
+
 ## Training chapters
 
 - [Apax package manager usage](./doc/setup.md) (mandatory for all other chapters)

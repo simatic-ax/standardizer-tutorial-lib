@@ -6,8 +6,7 @@ After this training session:
 
 //TODO
 
-### enable 
-
+### enable
 
 ## Summary
 

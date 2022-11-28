@@ -5,7 +5,7 @@
 After this training session, you will:
 
 - be able to create workspaces using the clone link in the Web IDE
-- know how to login to the AX registry 
+- know how to login to the AX registry
 - kwow how to login to other (external) registries
 - have a rough overview about `apax.yml`
 - learn how to install and update dependencies using the Apax extension
@@ -32,8 +32,6 @@ After this training session, you will:
     > NOTE: If your AX public key is not in your GitHub profile, the new workspace will not be able to clone the tutorial code.
 
 1. Open the workspace
-
-
 
 ### Logging into another registry
 
@@ -101,10 +99,11 @@ In this tutorial, we need some other libraries. Hence these are dependencies whi
 In this example, two additional libraries from the `@simatic-ax` registry are required.
 
 These two libraries are:
+
 ```yml
 dependencies:
-  "@simatic-ax/io": 0.1.1
-  "@simatic-ax/collections": 0.1.1
+"@simatic-ax/io": 0.1.1
+"@simatic-ax/collections": 0.1.1
 ```
 
 For now, it's not important to know what the content of these libraries is. These libraries are hosted on GitHub. So we need to tell Apax where the GitHub registry is located. This will be done in the section `registries`
@@ -114,6 +113,7 @@ Therefore the registries section in the apax.yml is responsible:
 registries:
   '@simatic-ax': 'https://npm.pkg.github.com/'
 ```
+
 ### Install dependencies
 
 1. Right click on `apax.yml` and select `Install dependencies`
@@ -137,15 +137,14 @@ This command is equivalent to `Install dependencies`
 
 If you need further dependencies add them with the `Apax extension`
 
-Example to install the library `@ax/system-timer` 
+Example to install the library `@ax/system-timer`
 
-  ![](images/apaxextension.png)
+  ![img](images/apaxextension.png)
 
    1. Open `apax extension`
    1. Enter `syst` into the text field to filter teh available packages
-   1. Select the package `@ax/system-timer` 
+   1. Select the package `@ax/system-timer`
    1. Click on `install`
-
 
 Alternatively, you can install the dependencies via command line:
 
@@ -163,21 +162,19 @@ The result is: you can find an additional entry in th `apax.yml` in the section 
 If you are wondering why this version is set with `^`0.4.2. That means that at minimum version 0.4.2 has to be used. If there is a version 0.4.3 available, the version 0.4.3 will be installed with the command `apax install` and even with `apax install -L`
 
 > The command `apax update` will install the latest package and removes the `^` and set the version explicitly.
-
 > It's recommended to work with explicit version numbers. Example: `1.0.2` instead of `^1.0.2`.
 
 ### Update dependencies
 
-Sometimes, there are newer versions of packages available. These dependencies can also be updated with Apax. 
+Sometimes, there are newer versions of packages available. These dependencies can also be updated with Apax.
 
 1. Via Apax extension
 
-    ![](images/update.png)
+    ![img](images/update.png)
 
-    1. Open `Apax extension` and select the section `IN PROJECT` 
+    1. Open `Apax extension` and select the section `IN PROJECT`
 
     1. Select the package you want to update and click on `Update`
-
 
 1. Via command line
 
