@@ -5,3 +5,5 @@ obj
 testResult
 result.tracerec.json
 .gitlab-ci.yml
+node_modules
+storage
