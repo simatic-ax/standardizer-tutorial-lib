@@ -96,17 +96,16 @@ This section contains dev dependencies which are necessary during development. I
 
 In this tutorial, we need some other libraries. Hence these are dependencies which are necessary for building the library.
 
-In this example, two additional libraries from the `@simatic-ax` registry are required.
-
-These two libraries are:
+In this example, an additional library from the `@simatic-ax` registry is required as an `dependency`. In the [apax.yml](../apax.yml) you can find a section `dependencies`:
 
 ```yml
 dependencies:
-"@simatic-ax/io": 0.1.1
-"@simatic-ax/collections": 0.1.1
+"@simatic-ax/io": <version>  # the e.g. <version> = 1.0.1
 ```
 
-For now, it's not important to know what the content of these libraries is. These libraries are hosted on GitHub. So we need to tell Apax where the GitHub registry is located. This will be done in the section `registries`
+> the version actually used is shown in the [apax.yml](../apax.yml) and may differ from the version shown here.
+
+For now, it's not important to know what the content of this library is. This library are hosted on GitHub simatic-ax. So we need to tell Apax where the GitHub registry is located. This will be done in the section `registries`
 Therefore the registries section in the apax.yml is responsible:
 
 ```yml
