@@ -37,7 +37,7 @@ After this training session:
 
 1. Change the name of the method to `Test_Open_valve_and_Expect_IsOpen_True`
 
-    > Recommendations for writing tests, you'll find [here](https://console.prod.ax.siemens.cloud/docs/axunit#guidelines-and-tips-for-writing-tests)
+    > Recommendations for writing tests, you'll find [here](https://console.simatic-ax.siemens.io/docs/axunit#guidelines-and-tips-for-writing-tests)
 
 1. In the next step we select our class we want to test. Therefore we declare the variable v in the VAR section
 
