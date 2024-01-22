@@ -17,7 +17,7 @@ variables:
     - --debug
 # Dependencies
 devDependencies:
-  "@ax/sdk": 3.0.8
+  "@ax/sdk": 2311.0.1
 dependencies:
   "@simatic-ax/io": 1.0.1
 # Registry information, where the package will be published
