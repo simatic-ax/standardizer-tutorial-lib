@@ -31,14 +31,23 @@ This tutorial is structured in multiple sequential chapters. Be sure to read [Ap
 
 - You have access to the [web IDE](https://axcite.me)
 - You can login into the AX registry
-- Your AX cloud IDE public key is added in your GitHub profile:
-  - [how to get your public key from AX](https://console.prod.ax.siemens.cloud/docs/axcode/source-code-management#cloning-in-the-cloud)
+- Your `public SSH key` from AX is added to your GitHub profile:
+  - [how to get your public SSH key from AX](#how-to-get-a-your-public-ssh-key-from-ax)
   - [how to add a SSH key on GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
   - >Note: you need this public key to be able to clone the repository in the cloud IDE
 
 - You've created a valid personal access token to access the GitHub registry
   - [create personal access token on GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
   - >Note: You need this token to login into the `simatic-ax` GitHub registry (URL: <https://npm.pkg.github.com/>) with `apax login`
+
+## How to get a your public SSH key from AX
+
+- open the [workspace manager](https://console.simatic-ax.siemens.io/workspaces) in AX
+- Click on the button `Copy public key`
+
+    ![public key](./doc/images/publickey.png)
+
+- [further documentation](https://console.simatic-ax.siemens.io/docs/axcode/source-code-management#cloning-in-the-cloud)
 
 ## Contribution
 
