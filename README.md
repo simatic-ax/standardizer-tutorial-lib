@@ -43,9 +43,9 @@ This tutorial is structured in multiple sequential chapters. Be sure to read [Ap
 ## How to get a your public SSH key from AX
 
 - open the [workspace manager](https://console.simatic-ax.siemens.io/workspaces) in AX
-- Click on the button `Copy public key` 
+- Click on the button `Copy public key`
 
-    ![](./doc/images/publickey.png)
+    ![public key](./doc/images/publickey.png)
 
 - [further documentation](https://console.simatic-ax.siemens.io/docs/axcode/source-code-management#cloning-in-the-cloud)
 
