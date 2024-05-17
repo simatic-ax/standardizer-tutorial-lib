@@ -1,12 +1,11 @@
 # General information
 name: '@simatic-ax/standardizer-tutorial-lib'
-version: 0.0.1
+version: 0.0.2
 type: lib
 # Description will be displayed in the apax extension
-description: This tutoral describes the apax workflow until how to publish
-  packages on a registry
+description: This tutoral describes the apax workflow until how to publish packages on a registry
 targets:
-  - "axunit-llvm"
+  - "llvm"
 #URL to the repository
 repository:
   type: git
@@ -15,11 +14,10 @@ repository:
 variables:
   APAX_BUILD_ARGS:
     - --debug
-# Dependencies
-devDependencies:
-  "@ax/sdk": 2311.0.1
 dependencies:
-  "@simatic-ax/io": 1.0.1
+  "@simatic-ax/io": ^5.0.0
+  "@ax/system-timer": ^6.0.94
+  "@ax/sdk": ^2311.1.2
 # Registry information, where the package will be published
 registries:
   '@simatic-ax': 'https://npm.pkg.github.com/'
@@ -31,3 +29,16 @@ files:
   - "./doc"
 installStrategy: strict
 apaxVersion: 3.1.0
+scripts:
+      createlib:
+        - apax build
+        - apax version $1
+        - apax keygen --override-existing
+        - apax pack
+
+
+
+
+
+
+
