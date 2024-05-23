@@ -145,7 +145,7 @@ Example to install the library `@ax/system-timer`
   ![img](images/apaxextension.png)
 
    1. Open `apax extension`
-   1. Enter `system` into the text field to filter teh available packages
+   1. Enter `system` into the text field to filter the available packages
    1. Select the package `@ax/system-timer`
    1. Click on `install`
 
@@ -162,7 +162,7 @@ The result is: you can find an additional entry in th `apax.yml` in the section 
 
 ![drawing](./images/adddep.png)  
 
-If you are wondering why this version is set with `^`6.0.94. That means that at minimum version 6.0.94 has to be used. If there is a version 6.0.94 available, the version 6.0.94 will be installed with the command `apax install`
+The Timer has a version 6.0.94, the first part "6" stands for major version like breaking changes, and the second part "0" means minor version, and the third parts "94" are for patch version like bug-fix. If there is a newer version of 6.0.99 that indicates a newer bugfix-version, like 6.0.99 for example, this latest version 6.0.99 will be installed instead with the command `apax update`
 
 > The command `apax update` will install the latest package and removes the `^` and set the version explicitly.
 > It's recommended to work with explicit version numbers. Example: `1.0.2` instead of `^1.0.2`.
