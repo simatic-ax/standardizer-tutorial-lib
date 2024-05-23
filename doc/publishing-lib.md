@@ -61,7 +61,7 @@ When you want to publish your package in a repository that is inside an organiza
 
 1. Users can enter your package scope and public key in the publicKeys section of their apax.yml to detect corruption or manipulation when installing packages.
 
-![debug](./doc/images/../../images/addpublickeys.PNG)
+    ![debug](./doc/images/../../images/addpublickeys.PNG)
 
 ### Set the version of the package
 
