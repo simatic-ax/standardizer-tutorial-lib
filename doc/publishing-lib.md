@@ -45,6 +45,24 @@ When you want to publish your package in a repository that is inside an organiza
 
     >Note: Shipping the compiled binaries instead of the source code is possible, but not part of this tutorial.
 
+### Create a public/private key pair for signing packages
+
+1. By excuting the following command in terminal. The key should be created once for the complete department/company
+
+    ```cli
+        apax keygen --override-existing
+    ```
+
+    The key file will be located in ~/.apax/apax.signkey in the home directory.
+    ![debug](./doc/images/../../images/keypair.PNG)
+
+
+    >Note the `apax pack`need the key to sign the package. 
+
+1. Users can enter your package scope and public key in the publicKeys section of their apax.yml to detect corruption or manipulation when installing packages.
+
+    ![debug](./doc/images/../../images/addpublickeys.PNG)
+
 ### Set the version of the package
 
 1. Before you create your package, you've to set the version. Check the current version in the apax.yml
@@ -63,11 +81,6 @@ When you want to publish your package in a repository that is inside an organiza
 
     The version in the apax.yml will be changed
 
-1. In the next step, we create a public/private key pair for signing the packages. Enter the following command into the command line:
-
-    ```cli
-    apax keygen --override-existing
-    ```
 
 1. now we're able to create the package with the command:
 
@@ -79,9 +92,11 @@ When you want to publish your package in a repository that is inside an organiza
 
     >Tip: you can open the *.tgz file with any zip/unzip program
 
+
+
 ### Create package by scripts
 
-With Apax, you're able to define some own scripts. In this example we create a script which create a package with just one command.
+With Apax, you're able to define some own scripts. In this example we create a script which create a package. By excute the command 
 
 1. Open the apax.yml
 
@@ -92,7 +107,6 @@ With Apax, you're able to define some own scripts. In this example we create a s
       createlib:
         - apax build
         - apax version $1
-        - apax keygen --override-existing
         - apax pack
     ```
 
@@ -112,7 +126,6 @@ With Apax, you're able to define some own scripts. In this example we create a s
 
     - apax build
     - apax version 0.0.3
-    - apax keygen --override-existing
     - apax pack
 
     will be executed in sequence. In this case the $1 argument will be replaced by 0.0.3 from the command line parameter

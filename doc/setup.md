@@ -30,6 +30,10 @@ After this training session, you will:
 
    ![drawing](./images/clone-repo.png)
     > NOTE: If your AX public key is not in your GitHub profile, the new workspace will not be able to clone the tutorial code.
+    >       You can add the key to GitHub by following the next step
+
+1. Click 'Copy public key' and go to Github, add new SSh keys at user's setting and be sure select key type as 'Authentication Key'.
+    ![drawing](./images/Add-ssh-key.png)
 
 1. Open the workspace
 
@@ -49,13 +53,13 @@ For this tutorial, further libraries are required which are hosted on a GitHub r
     https://npm.pkg.github.com/
     ```
 
-1. Leave the user name field empty and press `Enter`
-
-    ![drawing](./images/enter.png)  
-
 1. Enter your personal access token from GitHub with `Strg+V` (`Ctrl+V`)
 
     ![drawing](./images/token.png)  
+
+1. Leave the user name field empty and press `Enter`
+
+    ![drawing](./images/enter.png)  
 
 Now you are able to install all necessary dependencies to develop your library.
 
@@ -90,7 +94,7 @@ The header of this file includes some basic information about the project.
 
 #### **devDependencies**
 
-This section contains dev dependencies which are necessary during development. In this case only the `@ax/sdk` version `0.2.499` is required.
+This section contains dev dependencies which are necessary during development. In this case only the `@ax/sdk` version `2311.1.2` is required.
 
 #### **dependencies** and **registries**
 
@@ -100,7 +104,7 @@ In this example, an additional library from the `@simatic-ax` registry is requir
 
 ```yml
 dependencies:
-"@simatic-ax/io": <version>  # the e.g. <version> = 1.0.1
+"@simatic-ax/io": <version>  # the e.g. <version> = 5.0.0
 ```
 
 > the version actually used is shown in the [apax.yml](../apax.yml) and may differ from the version shown here.
@@ -127,7 +131,7 @@ registries:
 You can open a terminal (e.g. by pressing `STRG+SHIFT+ö` German keyboard layout, CTRL+` USA keyboard layout) and press enter
 
 ```iec-st
-apax install -L 
+apax install
 ```
 
 This command is equivalent to `Install dependencies`
@@ -141,7 +145,7 @@ Example to install the library `@ax/system-timer`
   ![img](images/apaxextension.png)
 
    1. Open `apax extension`
-   1. Enter `syst` into the text field to filter teh available packages
+   1. Enter `system` into the text field to filter the available packages
    1. Select the package `@ax/system-timer`
    1. Click on `install`
 
@@ -158,14 +162,14 @@ The result is: you can find an additional entry in th `apax.yml` in the section 
 
 ![drawing](./images/adddep.png)  
 
-If you are wondering why this version is set with `^`0.4.2. That means that at minimum version 0.4.2 has to be used. If there is a version 0.4.3 available, the version 0.4.3 will be installed with the command `apax install` and even with `apax install -L`
+The Timer has a version 6.0.94, the first part "6" stands for major version like breaking changes, and the second part "0" means minor version, and the third parts "94" are for patch version like bug-fix. If there is a newer version of 6.0.99 that indicates a newer bugfix-version, like 6.0.99 for example, this latest version 6.0.99 will be installed instead with the command `apax update`
 
 > The command `apax update` will install the latest package and removes the `^` and set the version explicitly.
 > It's recommended to work with explicit version numbers. Example: `1.0.2` instead of `^1.0.2`.
 
 ### Update dependencies
 
-Sometimes, there are newer versions of packages available. These dependencies can also be updated with Apax.
+Sometimes, there are newer versions of package available. These dependencies can also be updated with Apax.
 
 1. Via Apax extension
 
