@@ -56,8 +56,7 @@ When you want to publish your package in a repository that is inside an organiza
     The key file will be located in ~/.apax/apax.signkey in the home directory.
     ![debug](./doc/images/../../images/keypair.PNG)
 
-
-    >Note the `apax pack`need the key to sign the package. 
+    >Note the `apax pack`need the key to sign the package.
 
 1. Users can enter your package scope and public key in the publicKeys section of their apax.yml to detect corruption or manipulation when installing packages.
 
@@ -81,7 +80,6 @@ When you want to publish your package in a repository that is inside an organiza
 
     The version in the apax.yml will be changed
 
-
 1. now we're able to create the package with the command:
 
     ```cli
@@ -92,11 +90,9 @@ When you want to publish your package in a repository that is inside an organiza
 
     >Tip: you can open the *.tgz file with any zip/unzip program
 
-
-
 ### Create package by scripts
 
-With Apax, you're able to define some own scripts. In this example we create a script which create a package. By excute the command 
+With Apax, you're able to define some own scripts. In this example we create a script which create a package. By execute the command
 
 1. Open the apax.yml
 
