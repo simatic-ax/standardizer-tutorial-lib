@@ -18,7 +18,7 @@ devDependencies:
   "@ax/sdk": 2405.0.0
 dependencies:
   "@simatic-ax/io": 5.0.0
-  "@ax/system-timer": 6.0.94
+  "@ax/system-timer": 9.0.12
 # Registry information, where the package will be published
 registries:
   '@simatic-ax': 'https://npm.pkg.github.com/'
